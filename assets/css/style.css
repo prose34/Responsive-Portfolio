@@ -1,0 +1,545 @@
+* {
+    box-sizing: border-box;
+}
+
+/* html {
+    position: relative;
+    height: 100%;
+} */
+
+body {
+    background-image: url("../images/rockywall.png");
+    /* credit to Subtle Images for the background */
+    letter-spacing: 0.75px;
+    /* margin: 0 0 100px; */
+    /* position: relative; */
+}
+
+
+/* Header section */
+ 
+header {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+
+.heading {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+h1.name {
+    display: inline-block;
+    background-color: #4aaaa5;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+div.headerlinks {
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: slategray;
+    float: right;
+    padding-top: 35px;
+    /* HOW DO I MOVE IT TO RIGHT CENTER WITHOUT FLOAT AND PADDING???? */
+}
+
+/* Main Content Area */
+
+div.maincontent {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+section.aboutme {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 650px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h2.aboutmeheader {
+    color: #4aaaa5;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 18px;
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 20px 20px 0 20px;
+}
+
+img.selfie {
+    width: 175px;
+    /* height: 175px; */
+    float: left;
+    margin-right: 20px;
+}
+
+section p {
+    line-height: 175%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: slategray;
+    /* vertical-align: top; */
+}
+
+section.picandbio {
+    padding: 20px;
+}
+
+
+section.connectlinks {
+    width: 270px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    float: right;
+}
+
+h3.h3title {
+    border-bottom: 2px solid lightgray;
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 125%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.socialimg {
+    width: 75px;
+    height: 75px;
+}
+
+.socialimg3 {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 3px;
+}
+
+
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 650px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h2.portfolioheader {
+    color: #4aaaa5;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 18px;
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 20px 20px 0 20px;
+}
+
+section.portfolioimgs {
+    padding: 20px;
+    text-align: center;
+    /* position: relative; */
+}
+
+.portfolioimg {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+div.imageonediv {
+    position: relative;
+    display: inline-block;
+}
+
+#image1 {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    /* display: inline-block; */
+}
+
+#image1text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+
+div.imagetwodiv {
+    position: relative;
+    display: inline-block;
+}
+
+#image2text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+div.imagethreediv {
+    position: relative;
+    display: inline-block;
+}
+
+#image3text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+
+div.imagefourdiv {
+    position: relative;
+    display: inline-block;
+}
+
+#image4text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+div.imagefivediv {
+    position: relative;
+    display: inline-block;
+}
+
+#image5text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+/* CONTACT.HTML */
+
+section.contact {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 650px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h2.contactheader {
+    color: #4aaaa5;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 18px;
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 20px 20px 0 20px;
+}
+
+section.contactinputs {
+    padding: 20px;
+
+}
+
+section.contactinputs h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: slategray;
+}
+
+#inputname {
+    padding: 2px;
+    width: 100%;
+    margin: 10px auto 15px auto;
+    height: 30px;
+}
+
+#inputemail {
+    padding: 2px;
+    width: 100%;
+    margin: 10px auto 15px auto;
+    height: 30px;
+}
+
+#messagebox {
+    padding: 2px;
+    width: 100%;
+    margin: 10px auto 15px auto;
+    height: 200px;
+}
+
+h2.submit {
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 40px;
+    color: lightgray;
+    /* position: fixed; */
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+    /* height: 100px; */
+}
+
+
+/* FOR 980px */
+
+@media screen and (max-width: 980px) {
+   
+    div.maincontent {
+        width: 100%;
+    }
+
+    section.aboutme {
+        width: 60%;
+    }
+
+    section.portfolio {
+        width: 55%;
+        /* display: block; */
+        margin: 0;
+    }
+
+    .portfolioimg {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    #image1text,
+    #image2text,
+    #image3text,
+    #image4text,
+    #image5text {
+        width: 100%;
+        margin: 0;
+        bottom: 10%;
+    }
+
+    section.connectlinks {
+        margin-right: 40px;
+        /* position: relative; */
+    }
+
+    
+
+
+}
+
+/* FOR 768px */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        /* display: block; */
+    }
+
+    div.heading {
+        width: 100%;
+        text-align: left;
+        /* position: relative; */
+    }
+
+    h1.name {
+        /* position: absolute;
+        left: 0; */
+    }
+
+    div.maincontent,
+    h2.aboutmeheader {
+        width: 90%;
+        /* margin: auto; */
+    }
+
+    section.portfolio {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.imageonediv,
+    div.imagetwodiv,
+    div.imagethreediv,
+    div.imagefourdiv,
+    div.imagefivediv {
+        width: 40%;
+    }
+
+    section.aboutme,
+    section.picandbio {
+        width: 100%;
+    }
+
+    section.connectlinks {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    section.contact {
+        width: 100%;
+    }
+
+
+    
+}
+
+
+
+
+/* FOR 640px */
+
+@media screen and (max-width: 640px) {
+
+    header, 
+    .heading, 
+    .heading h1,
+    .headerlinks {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    div.headerlinks {
+        float: none;
+        padding: 20px;
+        word-spacing: 30px;
+    }
+
+    div.maincontent,
+    h2.aboutmeheader {
+        width: 90%;
+        /* margin: auto; */
+    }
+
+    section.aboutme,
+    section.picandbio {
+        width: 100%;
+    }
+
+    img.selfie {
+        float: none;
+        width: 100%;
+    }
+
+    section.connectlinks {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    /* portfolio for 640 */
+    
+    /* s="maincontent">
+            <section class="portfolio">
+                <h2 class="portfolioheader">Portfolio</h2>
+                <section class="portfolioimgs">
+                    <div class="imageonediv"> */
+
+    section.portfolio {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .portfolioimg {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    div.imageonediv,
+    div.imagetwodiv,
+    div.imagethreediv,
+    div.imagefourdiv,
+    div.imagefivediv {
+        width: 100%;
+    }
+
+    #image1text,
+    #image2text,
+    #image3text,
+    #image4text,
+    #image5text {
+        width: 100%;
+        margin: 0;
+        bottom: 10%;
+    }
+
+   /* contact pg */
+
+    section.contact {
+        width: 100%;
+    }
+
+
+}
